@@ -283,7 +283,11 @@ main {
 
 
 
-
+hr {
+    width: 656px;
+    height: 1px;
+    background: var(--color-stone-150, #E3DDD7);
+}
 
 
 /* Tablet styles */
@@ -291,6 +295,19 @@ main {
     body {
         font-size: 18px;
         padding: 2rem;
+    }
+
+    header {
+        background-color: var(--color-white, #FFF);
+        padding: var(--spacing-500, 8px);
+        width: auto;
+    }
+
+    header img {
+        border-radius: var(--spacing-150, 12px);
+        height: 300px;
+        align-self: stretch;
+        margin-bottom: -3px;
     }
 
     h1 {
