@@ -1,0 +1,313 @@
+@import url('./tokens.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Face Declarations */
+@font-face {
+    font-family: 'Young Serif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-body);
+    background: var(--color-stone-100);
+    color: var(--color-stone-900);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-young-serif);
+    color: var(--color-brown-800);
+}
+
+header {
+    width: 100%
+}
+
+header img {
+    align-self: stretch;
+    height: 171px;
+}
+
+main {
+    display: flex;
+    padding: var(--spacing-500, 40px) var(--spacing-400, 32px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-400, 32px);
+    align-self: stretch;
+    background: var(--color-white, #FFF);
+}
+
+.intro {
+    gap: var(--spacing-400, 32px);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+.intro-section h1 {
+    align-self: stretch;
+    color: var(--color-stone-900, #312E2C);
+
+    /* Mobile/text-preset-1 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-mobile-text-preset-1, 36px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 36px */
+}
+
+.intro-section p {
+    align-self: stretch;
+    color: var(--color-stone-600, #5F564D);
+
+    /* Desktop/text-preset-4 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.prepration-intructions {
+    display: flex;
+    padding: var(--spacing-300, 24px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-200, 16px);
+    align-self: stretch;
+    border-radius: var(--spacing-150, 12px);
+    background: var(--color-rose-50, #FFF7FB);
+}
+
+.prepration-intructions h1 {
+    color: var(--color-rose-800, #7A284E);
+
+    /* Desktop/text-preset-3 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-3, 20px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 20px */
+}
+
+.prepration-intructions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.prepration-intructions li {
+    color: var(--color-stone-600, #5F564D);
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    line-height: 150%;
+    /* 24px */
+}
+
+.prepration-intructions .label {
+    font-weight: 700;
+    /* before colon */
+}
+
+.prepration-intructions .value {
+    font-weight: 400;
+    /* after colon */
+}
+
+
+
+.ingredients-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+.ingredients-section ul {
+    list-style: disc inside;
+}
+
+.ingredients-section li {
+    color: var(--color-stone-600, #5F564D);
+    /* Desktop/text-preset-4 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.ingredients-section h1 {
+    align-self: stretch;
+    color: var(--color-brown-800, #854632);
+
+    /* Desktop/text-preset-2 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-desktop-text-preset-2, 28px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 28px */
+}
+
+.instruction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+.instruction-section ol {
+    padding-left: 20px;
+    /* keep numbering aligned */
+}
+
+.instruction-section li {
+    color: var(--color-stone-600, #5F564D);
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    line-height: 150%;
+    /* 24px */
+    margin-bottom: 12px;
+}
+
+.instruction-section .label {
+    font-weight: 700;
+    /* before colon */
+}
+
+.instruction-section .value {
+    font-weight: 400;
+    /* after colon */
+}
+
+
+.nutritions-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    align-self: stretch;
+}
+
+.nutritions-section p {
+    color: var(--color-stone-600, #5F564D);
+
+    /* Desktop/text-preset-4 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+
+.nutritions-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutritions-section th,
+.nutritions-section td {
+    padding: 12px 0;
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    line-height: 150%;
+    /* 24px */
+}
+
+.nutritions-section th {
+    color: var(--color-stone-600, #5F564D);
+    font-weight: 400;
+    /* regular */
+    text-align: left;
+}
+
+.nutritions-section td {
+    color: var(--color-brown-800, #854632);
+    font-weight: 700;
+    /* bold */
+    text-align: left;
+}
+
+/* bottom line per row */
+.nutritions-section tr {
+    border-bottom: 1px solid var(--color-stone-600, #5F564D);
+}
+
+.nutritions-section tr:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+/* Tablet styles */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 3rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}

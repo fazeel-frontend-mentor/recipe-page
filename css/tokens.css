@@ -1,0 +1,29 @@
+/* Design Tokens */
+:root {
+    /* Colors */
+    --color-rose-800: #7a284e;
+    --color-brown-800: #854632;
+    --color-stone-600: #5f564d;
+    --color-stone-900: #312e2c;
+    --color-stone-100: #f3e5d7;
+    --color-stone-150: #e3ddd7;
+    --color-rose-50: #fff7fb;
+    --color-white: #ffffff;
+
+    /* Typography */
+    --font-size-desktop-text-preset-1: 40px;
+    --font-size-desktop-text-preset-2: 28px;
+    --font-size-desktop-text-preset-3: 20px;
+    --font-size-desktop-text-preset-4: 16px;
+    --font-size-mobile-text-preset-1: 36px;
+
+    /* Spacing */
+    --spacing-1600: 128px;
+    --spacing-600: 48px;
+    --spacing-500: 40px;
+    --spacing-400: 32px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+}
