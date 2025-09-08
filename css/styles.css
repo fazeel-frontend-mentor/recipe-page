@@ -299,6 +299,11 @@ hr {
         padding: 2rem;
     }
 
+    main {
+        border-radius: var(--spacing-300, 24px);
+        background: var(--color-white, #FFF);
+    }
+
     header {
         background-color: var(--color-white, #FFF);
         padding: var(--spacing-500, 8px);
