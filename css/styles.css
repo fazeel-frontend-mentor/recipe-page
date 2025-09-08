@@ -299,8 +299,9 @@ hr {
         padding: 2rem;
     }
 
-    main {
-        border-radius: var(--spacing-300, 24px);
+    header {
+        border-top-left-radius: var(--spacing-300, 24px);
+        border-top-right-radius: var(--spacing-300, 24px);
         background: var(--color-white, #FFF);
     }
 
