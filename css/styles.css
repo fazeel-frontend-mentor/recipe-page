@@ -53,6 +53,7 @@ header {
 header img {
     align-self: stretch;
     height: 171px;
+    object-fit: cover;
 }
 
 main {
