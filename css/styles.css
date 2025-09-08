@@ -338,7 +338,13 @@ hr {
         padding: 3rem;
     }
 
-    h1 {
-        font-size: 3rem;
+    header {
+        border-top-left-radius: var(--spacing-300, 24px);
+        border-top-right-radius: var(--spacing-300, 24px);
+        background: var(--color-white, #FFF);
+        background-color: var(--color-white, #FFF);
+        padding: var(--spacing-500, 8px);
+        width: 90%
     }
+
 }
