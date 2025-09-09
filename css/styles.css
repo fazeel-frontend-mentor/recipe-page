@@ -337,6 +337,10 @@ hr {
         width: auto;
     }
 
+    .intro-section h1 {
+        font-size: var(--font-size-desktop-text-preset-1, 40px);
+    }
+
     main {
         border-bottom-left-radius: var(--spacing-300, 24px);
         border-bottom-right-radius: var(--spacing-300, 24px);
