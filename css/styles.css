@@ -203,6 +203,18 @@ main {
     align-self: stretch;
 }
 
+.instruction-section h1 {
+    color: var(--color-brown-800, #854632);
+
+    /* Desktop/text-preset-2 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-desktop-text-preset-2, 28px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 28px */
+}
+
 .instruction-section ol {
     padding-left: 20px;
     /* keep numbering aligned */
@@ -235,6 +247,18 @@ main {
     align-items: flex-start;
     gap: var(--spacing-300, 24px);
     align-self: stretch;
+}
+
+.nutritions-section h1 {
+    color: var(--color-brown-800, #854632);
+
+    /* Desktop/text-preset-2 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-desktop-text-preset-2, 28px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 28px */
 }
 
 .nutritions-section p {
