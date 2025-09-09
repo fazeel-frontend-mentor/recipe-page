@@ -281,7 +281,7 @@ main {
 
 /* bottom line per row */
 .nutritions-section tr {
-    border-bottom: 1px solid var(--color-stone-600, #5F564D);
+    border-bottom: 1px solid var(--color-stone-150, #5F564D);
 }
 
 .nutritions-section tr:last-child {
