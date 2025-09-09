@@ -335,6 +335,7 @@ hr {
         padding: var(--spacing-500, 8px);
         padding-bottom: 0;
         width: auto;
+        margin-top: 30px;
     }
 
     .intro-section h1 {
